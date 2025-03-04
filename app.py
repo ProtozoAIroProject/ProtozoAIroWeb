@@ -15,6 +15,7 @@ hdf5 = os.path.join(BASE_DIR, "static", "hdf5", "weights.hdf5")
 
 app = Flask(__name__)
 
+
 @app.route("/")
 def home():
     return render_template("home.html")
